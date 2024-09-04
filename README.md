@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bangul-chatbot
 
-## Getting Started
+방울박사 - 스마트 물 관리 AI 챗봇
 
-First, run the development server:
+## 프로젝트 소개
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Bangul-chatbot은 Next.js를 기반으로 한 스마트 물 관리 AI 시스템입니다. 이 프로젝트는 사용자 친화적인 대시보드와 AI 챗봇을 통해 효율적인 물 관리를 돕습니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+주요 기능:
+- 실시간 물 사용량 모니터링
+- AI 기반 물 관리 조언
+- 사용자와 AI 챗봇 간의 상호작용
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 시작하기
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 필요 조건
 
-## Learn More
+- Node.js 14.0.0 이상
+- npm 또는 yarn
 
-To learn more about Next.js, take a look at the following resources:
+### 설치
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. 레포지토리를 클론합니다:
+   ```bash
+   git clone https://github.com/your-username/Bangul-chatbot.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. 프로젝트 디렉토리로 이동합니다:
+   ```bash
+   cd Bangul-chatbot
+   ```
 
-## Deploy on Vercel
+3. 의존성을 설치합니다:
+   ```bash
+   npm install
+   # 또는
+   yarn install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. 개발 서버를 실행합니다:
+   ```bash
+   npm run dev
+   # 또는
+   yarn dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+5. 브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 결과를 확인합니다.
+
+## 프로젝트 구조
+
+- `app/`: Next.js 13+ App Router 구조
+- `components/`: 재사용 가능한 React 컴포넌트
+- `pages/api/`: API 라우트 (서버리스 함수)
+- `public/`: 정적 파일 (이미지 등)
+
+## 기술 스택
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Chart.js](https://www.chartjs.org/)
+- [OpenAI API](https://openai.com/blog/openai-api)
+
+## 기여하기
+
+프로젝트에 기여하고 싶으시다면 다음 단계를 따라주세요:
+
+1. 이 레포지토리를 포크합니다.
+2. 새 브랜치를 생성합니다 (`git checkout -b feature/AmazingFeature`).
+3. 변경사항을 커밋합니다 (`git commit -m 'Add some AmazingFeature'`).
+4. 브랜치에 푸시합니다 (`git push origin feature/AmazingFeature`).
+5. Pull Request를 생성합니다.
+
+## 라이선스
+
+이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
+
+## 연락처
+
+프로젝트 관리자 - [@your-twitter](https://twitter.com/your-twitter) - email@example.com
+
+프로젝트 링크: [https://github.com/your-username/Bangul-chatbot](https://github.com/your-username/Bangul-chatbot)

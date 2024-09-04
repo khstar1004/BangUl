@@ -8,13 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#0056b3",
+        secondary: "#00a8e8",
+        accent: "#ffd700",
+        background: "#f0f8ff",
+        text: "#333333",
+        success: "#28a745",
+        warning: "#ffc107",
+        danger: "#dc3545",
+      },
+      boxShadow: {
+        'inner': 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
 export default config;
