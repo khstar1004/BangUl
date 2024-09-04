@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bangul-chatbot
 
 방울박사 - 스마트 물 관리 AI 챗봇
@@ -81,3 +82,7 @@ Bangul-chatbot은 Next.js를 기반으로 한 스마트 물 관리 AI 시스템�
 프로젝트 관리자 - [@your-twitter](https://twitter.com/your-twitter) - email@example.com
 
 프로젝트 링크: [https://github.com/your-username/Bangul-chatbot](https://github.com/your-username/Bangul-chatbot)
+=======
+# BangUl
+스마트 물관리 에이전트
+>>>>>>> 44aa37be57aab712457b39fe26a818130a88a99b
