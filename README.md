@@ -79,9 +79,9 @@ Bangul-chatbot은 Next.js를 기반으로 한 스마트 물 관리 AI 시스템�
 
 ## 연락처
 
-프로젝트 관리자 - [@your-twitter](https://twitter.com/your-twitter) - email@example.com
+프로젝트 관리자 - [@im9route](https://twitter.com/im9route) - jamesen1004@gmail.com
 
-프로젝트 링크: [https://github.com/your-username/Bangul-chatbot](https://github.com/your-username/Bangul-chatbot)
+프로젝트 링크: [https://github.com/khstar1004/BangUl](https://github.com/khstar1004/BangUl)
 =======
 # BangUl
 스마트 물관리 에이전트
